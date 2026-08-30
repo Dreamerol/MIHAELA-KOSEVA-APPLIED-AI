@@ -1,1 +1,23 @@
 
+
+
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#fff}
+body{font-family:Arial,Helvetica,sans-serif}
+.hero{position:relative;width:100%;line-height:0;overflow:hidden}
+.hero-image{display:block;width:100%;height:auto}
+.nav-overlay{position:absolute;top:2.5%;right:2.2%;display:flex;gap:3.2vw;line-height:1}
+.nav-overlay a{color:transparent;font-size:clamp(9px,.9vw,14px);padding:8px;cursor:pointer}
+.project-hotspots{position:absolute;left:3.25%;right:3.25%;top:44.7%;height:27.2%;display:grid;grid-template-columns:repeat(5,1fr);gap:1.25%}
+.project-hotspots a{display:block;border-radius:3%;cursor:pointer}
+.social-hotspots{position:absolute;left:35%;width:30%;bottom:5.5%;height:13%;display:grid;grid-template-columns:repeat(3,1fr);gap:10%}
+.social-hotspots a{display:block;border-radius:18%;cursor:pointer}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:700px){
+.nav-overlay{gap:7px;right:1%;top:2%}.nav-overlay a{font-size:7px;padding:4px}
+.project-hotspots{left:4.8%;right:4.8%;top:45%;height:26.5%;gap:1.5%}
+.social-hotspots{left:34%;width:32%;bottom:5%;height:13%;gap:6%}
+}
+
+
