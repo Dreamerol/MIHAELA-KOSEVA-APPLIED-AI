@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://github.com/Dreamerol/MIHAELA-KOSEVA-APPLIED-AI/sitemap.xml
