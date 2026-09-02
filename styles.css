@@ -1,0 +1,56 @@
+/* Button Hover Effects */
+
+/* All links with images (buttons) */
+a img {
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+/* Hover effect for project cards */
+a img[alt*="Profit"], 
+a img[alt*="Neural"],
+a img[alt*="ML Data Analysis"],
+a img[alt*="PROJECTS"],
+a img[alt*="MIHAELA-KOSEVA-APPLIED-AI"] {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+a:hover img[alt*="Profit"],
+a:hover img[alt*="Neural"],
+a:hover img[alt*="ML Data Analysis"],
+a:hover img[alt*="PROJECTS"],
+a:hover img[alt*="MIHAELA-KOSEVA-APPLIED-AI"] {
+  transform: scale(1.05);
+  filter: brightness(1.1) drop-shadow(0 0 10px rgba(0, 150, 255, 0.6));
+}
+
+/* Hover effect for social/navigation buttons */
+a img[height="130"] {
+  transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+a:hover img[height="130"] {
+  transform: translateY(-5px) scale(1.08);
+  filter: brightness(1.15) drop-shadow(0 5px 15px rgba(0, 100, 255, 0.5));
+  opacity: 0.95;
+}
+
+/* General link styling */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Optional: Add glow effect to links */
+a:hover {
+  text-decoration: none;
+}
+
+/* Table cells with hover effect */
+td a {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+td:hover a {
+  opacity: 0.9;
+}
