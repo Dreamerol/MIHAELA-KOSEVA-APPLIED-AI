@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dreamerol.github.io/MIHAELA-KOSEVA-APPLIED-AI/sitemap.xml
+Sitemap: https://dreamerol.github.io/APPLIED-AI-ENGINEER/sitemap.xml
