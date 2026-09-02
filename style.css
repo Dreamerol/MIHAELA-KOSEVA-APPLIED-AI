@@ -33,6 +33,12 @@ body{
   margin:0;
   padding:0;
   cursor:pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.homepage-hero:hover {
+  transform: scale(1.02);
+  filter: brightness(1.05);
 }
 
 .nav-overlay{
@@ -66,6 +72,14 @@ body{
   display:block;
   border-radius:3%;
   cursor:pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  position: relative;
+}
+
+.project-hotspots a:hover{
+  transform: scale(1.08) translateY(-8px);
+  filter: brightness(1.15) drop-shadow(0 8px 20px rgba(0, 120, 255, 0.6));
+  z-index: 10;
 }
 
 .social-hotspots{
@@ -83,6 +97,14 @@ body{
   display:block;
   border-radius:18%;
   cursor:pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  position: relative;
+}
+
+.social-hotspots a:hover{
+  transform: scale(1.12) translateY(-10px);
+  filter: brightness(1.2) drop-shadow(0 10px 25px rgba(0, 150, 255, 0.7));
+  z-index: 10;
 }
 
 .sr-only{
@@ -118,11 +140,19 @@ body{
     gap:1.5%;
   }
 
+  .project-hotspots a:hover{
+    transform: scale(1.06) translateY(-5px);
+  }
+
   .social-hotspots{
     left:34%;
     width:32%;
     bottom:5%;
     height:13%;
     gap:6%;
+  }
+
+  .social-hotspots a:hover{
+    transform: scale(1.10) translateY(-7px);
   }
 }
